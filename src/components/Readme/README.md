@@ -7,7 +7,7 @@ Delivers Tide Times[^1] to a user. The user can select which sites are required.
 
 ### RCS and Deployment
 
-Held on GitHub @ https://github.com/ianhunterpersonal/tide-times-react.git
+Held on GitHub @ https://github.com/ianhunterpersonal/tide-times-react_NEW.git
 
 Username ianhunterp****l
 Password `****G`
@@ -18,7 +18,9 @@ To deploy:-
 
 unix> deploy.sh
 
-2. Update Glitch project [https://glitch.com/edit/#!/chestnut-punishment?path=manifest.json:1:0] with latest on GitHub. Do this by import from GitHub which wipes out the current project and repalces with new one.
+This will create a new production build, place it in a project (../tide-times-deploy) and then check it in to GitHub.
+
+2. Update Glitch project [https://glitch.com/edit/#!/chestnut-punishment?path=manifest.json:1:0] with latest on GitHub. Do this by import from GitHub which wipes out the current project and replaces old. The GitHub reference is ianhunterpersonal/tide-times-react_NEW
 
 3. Job Done. Woohoo! Goto '[https://chestnut-punishment.glitch.me/]' to see the result
 

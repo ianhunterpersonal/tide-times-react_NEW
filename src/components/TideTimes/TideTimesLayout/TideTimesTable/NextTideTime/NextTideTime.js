@@ -70,14 +70,14 @@ class NextTideTime extends React.Component {
         var highTideFirst = (
             <div>
                 <Typography variant="body1">
-                    Next High : @ {
+                    Next High Tide : @ {
                         (nextHighMoment) ?
                             nextHighMoment.format("HH:mm") + " (in " + durationToNextHigh.get('hours') + "hr " + durationToNextHigh.get('minutes') + "min)" :
                             'N/A'
                     }
                 </Typography>
                 <Typography variant="body1">
-                    Next Low  : @ {
+                    Next Low Tide : @ {
                         (nextLowMoment) ?
                             nextLowMoment.format("HH:mm") + " (in " + durationToNextLow.get('hours') + "hr " + durationToNextLow.get('minutes') + "min)" :
                             'N/A'
@@ -89,14 +89,14 @@ class NextTideTime extends React.Component {
         var lowTideFirst = (
             <div>
                 <Typography variant="body1">
-                    Next Low  : @ {
+                    Next Low Tide : @ {
                         (nextLowMoment) ?
                             nextLowMoment.format("HH:mm") + " (in " + durationToNextLow.get('hours') + "hr " + durationToNextLow.get('minutes') + "min)" :
                             'N/A'
                     }
                 </Typography>
                 <Typography variant="body1">
-                    Next High : @ {
+                    Next High Tide : @ {
                         (nextHighMoment) ?
                             nextHighMoment.format("HH:mm") + " (in " + durationToNextHigh.get('hours') + "hr " + durationToNextHigh.get('minutes') + "min)" :
                             'N/A'

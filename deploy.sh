@@ -15,11 +15,11 @@ DEPLOY_DIR=../tide-times-react-deploy
             git add .
             git commit --author="$COMMITER"  -m "first commit"
             git remote add origin https://ianhunterpersonal@github.com/ianhunterpersonal/tide-times-react-deploy.git
-            cmd /C "git push -u origin master"
+            git push -u origin master
         else
             git add .
             git commit --author="$COMMITER"  -m "Another update"
-            cmd /C "git push"
+            git push
         fi
     )
     
