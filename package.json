@@ -44,7 +44,7 @@
     "moment": "^2.22.2",
     "moment-es6": "^1.0.0",
     "moment-timezone": "^0.5.23",
-    "node-sass": "^4.9.4",
+    "node-sass": "^7.0.0",
     "optimize-css-assets-webpack-plugin": "5.0.1",
     "pnp-webpack-plugin": "1.1.0",
     "postcss-flexbugs-fixes": "4.1.0",
